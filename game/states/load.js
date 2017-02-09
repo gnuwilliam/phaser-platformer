@@ -15,6 +15,6 @@ class Load extends Phaser.State {
     create () {
         setTimeout(function() {
             this.game.state.start('menu');
-        }, 1000);
+        }, 0);
     }
 }
